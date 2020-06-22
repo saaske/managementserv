@@ -1,0 +1,19 @@
+# All Server Details.
+
+servers:
+
+  procurementserv:
+    snapshotName: procurementserv-1.0-SNAPSHOT
+    command:
+      run:
+      start:
+      restart:
+      stop:
+
+  policyserv:
+    snapshotName: policyserv-1.0-SNAPSHOT
+    command:
+      run:
+      start:
+      restart:
+      stop:
