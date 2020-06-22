@@ -1,19 +1,20 @@
 # All Server Details.
 
 servers:
+  - id: 1
+    name: 'procurementserv'
+    snapShotName: 'procurementserv-1.0-SNAPSHOT'
+    commands:
+      RUN : ''
+      START: ''
+      RESTART: ''
+      STOP: ''
 
-  procurementserv:
-    snapshotName: procurementserv-1.0-SNAPSHOT
-    command:
-      run:
-      start:
-      restart:
-      stop:
-
-  policyserv:
-    snapshotName: policyserv-1.0-SNAPSHOT
-    command:
-      run:
-      start:
-      restart:
-      stop:
+  - id: 2
+    name: 'policyserv'
+    snapShotName: 'policyserv-1.0-SNAPSHOT'
+    commands:
+      RUN: ''
+      START: ''
+      RESTART: ''
+      STOP: ''
